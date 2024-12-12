@@ -1,4 +1,4 @@
-.list-category{
+/* .list-category{
   font-size: 2.5em;
   font-weight: bold;
   color: hsl(0, 0%, 20%);
@@ -20,4 +20,32 @@
 .list-items li:hover{
   color: hsl(0, 0%, 45%);
   cursor: pointer;
+} */
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150 px;
+  height: 50 px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: blue;
+  color:white;
+  border: none;
+  border-radius: 5 px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: darkblue;
 }
